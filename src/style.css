@@ -1,0 +1,166 @@
+* {
+    box-sizing: border-box;
+    /*outline: 1px dotted red;*/
+}
+
+body {
+    background: #23252C;
+    margin: 0px;
+}
+
+.app {
+    max-width: 317px;
+    background: #1A1B21;
+    margin: 44px auto;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.profile--container {
+    background-color:#23252C;
+    padding: 10px;
+    outline: 10px solid #1A1B21;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.profile {
+    display: block;
+    width: 217px;
+    height: 217px;
+    border-radius: 100px;
+    margin: auto;
+}
+
+.mainContent {
+    display: block;
+    background-color: #23252C;
+    outline: 10px solid #1A1B21;
+    margin: 10px 10px 0px 10px;
+    border-radius: 20px;
+}
+
+.name {
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0px;
+    padding-top: 21px;
+}
+
+.role {
+    margin: 0px;
+    padding-top: 6px;
+    font-family: 'Inter';
+    font-size: 12.8px;
+    text-align: center;
+    color: #F3BF99;
+}
+
+.website {
+    margin: 0px;
+    padding-top: 9px;
+    font-family: 'Inter';
+    font-size: 10.24px;
+    text-align: center;
+    color: #F5F5F5;
+}
+
+.email {
+    margin: 0px;
+    padding-top: 6px;
+    font-family: 'Inter';
+    font-size: 12.8px;
+    text-align: center;
+    color: #F5F5F5;
+}
+
+/*
+.email {
+    position: absolute;
+    width: 247px;
+    height: 34px;
+    margin: 16px 26px 0px 26px;
+    background: #FFFFFF;
+    border: 1px solid #D1D5DB;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+}
+*/
+
+.email > img {
+    display: inline-flex;
+    position: absolute;
+    margin-top: 12px;
+    margin-left: 94px;
+    width: 13px;
+    height: 10px;
+}
+
+.email > p {
+    display: inline-flex;
+    position: absolute;
+    margin: 0;
+    margin-top: 8px;
+    margin-left: 117px;
+}
+
+.info--extra {
+    width: 247px;
+    margin: 12px auto 0px auto;
+}
+
+.info--extra h3 {
+    color: #F5F5F5;
+    margin: 0px;
+    font-family: 'Inter';
+    font-size: 20px;
+    line-height: 150%;
+}
+
+.info--extra p {
+    font-family: 'Inter';
+    font-size: 12px;
+    line-height: 150%;
+    color: #DCDCDC;
+    margin: 0px;
+    padding-top: 5px;
+}
+
+.about > p {
+    margin-bottom: 27px;
+    text-align: justify;
+}
+
+.skills > ul {
+    margin-bottom: 12px;
+    font-family: 'Inter';
+    font-size: 12px;
+    line-height: 150%;
+    color: #DCDCDC;
+    padding-bottom: 12px;
+}
+
+.footer {
+    width: 317px;
+    height: 64px;
+    background: #161619;
+    border-radius: 0px 0px 10px 10px;
+
+    display: inline-flex;
+    justify-content: center;
+    padding: 19.5px 24px;
+}
+
+.footer > a {
+    margin-left: 20px;
+    margin-right: 20px;
+    justify-items: center;
+}
+
+.footer img {
+    height: 35px;
+    width: 35px;
+}
+
