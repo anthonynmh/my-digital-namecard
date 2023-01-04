@@ -5,22 +5,39 @@ export default function Information() {
         <main className="mainContent">
             <div className="info--main">
                 <p className="name">Anthony Neo Ming Hong</p>
-                <p className="role">Frontend Developer</p>
+                <p className="role">Aspiring Web Developer</p>
                 <p className="email">anthonyneomh@gmail.com</p>
             </div>
             <div className="info--extra">
                 <div className="about">
-                    <h3>About</h3>
-                    <p>I am an aspiring frontend developer with a diploma in Electrical and Electronics Engineering. My interests lie in making an impact in people's lives. Though I lack in experience, I make up for it by continuously honing my craft.</p>
+                    <h3>About:</h3>
+                    <p>
+                        Hi! 
+                        I am a second year computer science student from NUS.
+                        The skills I currently have are listed below!
+                    </p>
                 </div>
-                <div className="skills">
-                    <h3>Skills</h3>
+                <div className="skills-container">
+                    <h3>Skills:</h3>
                     <ul>
-                        <li>HTML,CSS,JS,React</li>
-                        <li>SQL</li>
-                        <li>Java</li>
-                        <li>C</li>
-                        <li>Electrical and Electronics</li>
+                        <li>Confident language: 
+                            <span className="skills">Java</span>
+                        </li>
+                        <li>Other languages: 
+                            <span className="skills">C, Python</span>
+                        </li>
+                        <li>Backend: 
+                            <span className="skills">SQL, PostgreSQL</span>
+                        </li>
+                        <li>Frontend: 
+                            <span className="skills">HTML, CSS, JS, React</span>
+                        </li>
+                        <li>Others: 
+                            <span className="skills">Electrical and Electronics</span>
+                        </li>
+                        <li>Also: 
+                            <span className="skills">Communication, Leadership</span>
+                        </li>
                     </ul>
                 </div>
                 {/*

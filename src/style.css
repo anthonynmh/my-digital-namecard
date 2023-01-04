@@ -11,32 +11,36 @@ body {
 .app {
     max-width: 317px;
     background: #1A1B21;
+    /*background: #3A4F7A;*/
     margin: 44px auto;
-    border-radius: 20px 20px 0px 0px;
+    border-radius: 20px 20px 20px 20px;
 }
 
 .profile--container {
-    background-color:#23252C;
+    /*background-color:#23252C;*/
+    background-color: #DFD3C3;
     padding: 10px;
     outline: 10px solid #1A1B21;
     margin: 10px;
-    border-radius: 20px;
+    border-radius: 20px 20px 0px 0px;
 }
 
 .profile {
     display: block;
-    width: 217px;
-    height: 217px;
-    border-radius: 100px;
+    width: 226px;
+    height: 226px;
+    border-radius: 110px;
     margin: auto;
+    outline: 2px solid grey;
 }
 
 .mainContent {
     display: block;
-    background-color: #23252C;
-    outline: 10px solid #1A1B21;
-    margin: 10px 10px 0px 10px;
-    border-radius: 20px;
+    /*background-color: #23252C;*/
+    background-color: #1A1B21;
+    /*outline: 10px solid #1A1B21;*/
+    margin: 0px 10px;
+    border-radius: 0px;
 }
 
 .name {
@@ -107,15 +111,15 @@ body {
 }
 
 .info--extra {
-    width: 247px;
-    margin: 12px auto 0px auto;
+    width: 260px;
+    margin: 30px auto 0px auto;
 }
 
 .info--extra h3 {
     color: #F5F5F5;
     margin: 0px;
     font-family: 'Inter';
-    font-size: 20px;
+    font-size: 18px;
     line-height: 150%;
 }
 
@@ -133,7 +137,7 @@ body {
     text-align: justify;
 }
 
-.skills > ul {
+.skills-container > ul {
     margin-bottom: 12px;
     font-family: 'Inter';
     font-size: 12px;
@@ -142,15 +146,19 @@ body {
     padding-bottom: 12px;
 }
 
+.skills {
+    float: right;
+}
+
 .footer {
     width: 317px;
-    height: 64px;
+    height: 65px;
     background: #161619;
     border-radius: 0px 0px 10px 10px;
 
     display: inline-flex;
     justify-content: center;
-    padding: 19.5px 24px;
+    padding: 16px 24px;
 }
 
 .footer > a {
