@@ -12,7 +12,7 @@ body {
     max-width: 317px;
     background: #1A1B21;
     /*background: #3A4F7A;*/
-    margin: 44px auto;
+    margin: 44px auto 0px auto;
     border-radius: 20px 20px 20px 20px;
 }
 
@@ -22,7 +22,7 @@ body {
     padding: 10px;
     outline: 10px solid #1A1B21;
     margin: 10px;
-    border-radius: 20px 20px 0px 0px;
+    border-radius: 20px 20px 10px 10px;
 }
 
 .profile {
@@ -40,7 +40,7 @@ body {
     background-color: #1A1B21;
     /*outline: 10px solid #1A1B21;*/
     margin: 0px 10px;
-    border-radius: 0px;
+    border-radius: 10px;
 }
 
 .name {
@@ -57,7 +57,7 @@ body {
     margin: 0px;
     padding-top: 6px;
     font-family: 'Inter';
-    font-size: 12.8px;
+    font-size: 15px;
     text-align: center;
     color: #F3BF99;
 }
@@ -75,7 +75,7 @@ body {
     margin: 0px;
     padding-top: 6px;
     font-family: 'Inter';
-    font-size: 12.8px;
+    font-size: 14px;
     text-align: center;
     color: #F5F5F5;
 }
@@ -119,14 +119,13 @@ body {
     color: #F5F5F5;
     margin: 0px;
     font-family: 'Inter';
-    font-size: 18px;
+    font-size: 20px;
     line-height: 150%;
 }
 
 .info--extra p {
     font-family: 'Inter';
-    font-size: 12px;
-    line-height: 150%;
+    font-size: 14px;
     color: #DCDCDC;
     margin: 0px;
     padding-top: 5px;
@@ -135,13 +134,14 @@ body {
 .about > p {
     margin-bottom: 27px;
     text-align: justify;
+    line-height: normal;
 }
 
 .skills-container > ul {
     margin-bottom: 12px;
     font-family: 'Inter';
-    font-size: 12px;
-    line-height: 150%;
+    font-size: 14px;
+    line-height: 140%;
     color: #DCDCDC;
     padding-bottom: 12px;
 }
@@ -154,7 +154,6 @@ body {
     width: 317px;
     height: 65px;
     background: #161619;
-    border-radius: 0px 0px 10px 10px;
 
     display: inline-flex;
     justify-content: center;
@@ -172,3 +171,13 @@ body {
     width: 35px;
 }
 
+.credit {
+    color: #DCDCDC;
+    font-size: 12px;
+    text-align: right;
+    margin: 0px;
+    border-radius: 0px 0px 5px 5px;
+    background-color: #161619;    
+    border-radius: 0px 0px 0px 10px;
+    padding-right: 5px;
+}
