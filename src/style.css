@@ -31,7 +31,7 @@ body {
     height: 226px;
     border-radius: 110px;
     margin: auto;
-    outline: 4px solid whitesmoke;
+    outline: 8px solid grey;
 }
 
 .mainContent {
