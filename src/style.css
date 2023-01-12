@@ -18,7 +18,7 @@ body {
 
 .profile--container {
     /*background-color:#23252C;*/
-    /*background-color: #DFD3C3;*/
+    background-color: #DFD3C3;
     padding: 10px;
     outline: 10px solid #1A1B21;
     margin: 10px;
@@ -31,7 +31,7 @@ body {
     height: 226px;
     border-radius: 110px;
     margin: auto;
-    outline: 8px solid #F3BF99;
+    outline: 2px solid grey;
 }
 
 .mainContent {
