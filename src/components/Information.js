@@ -15,6 +15,12 @@ export default function Information() {
                         Hi! 
                         I am a second year computer science student from NUS.
                         The skills I currently have are listed below!
+
+                        {/*
+                        Hi! 
+                        I am a second year computer science student from NUS.
+                        The skills I currently have are listed below!
+                        */}
                     </p>
                 </div>
                 <div className="skills-container">
