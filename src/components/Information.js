@@ -5,7 +5,7 @@ export default function Information() {
         <main className="mainContent">
             <div className="info--main">
                 <p className="name">Anthony Neo Ming Hong</p>
-                <p className="role">Aspiring Web Developer</p>
+                <p className="role">Aspiring Developer</p>
                 <p className="email">anthonyneomh@gmail.com</p>
             </div>
             <div className="info--extra">
@@ -13,7 +13,7 @@ export default function Information() {
                     <h3>About:</h3>
                     <p>
                         Hi! 
-                        I am a second year computer science student from NUS.
+                        I am a second year (penultimate) computer science student from NUS.
                         The skills I currently have are listed below!
 
                         {/*
