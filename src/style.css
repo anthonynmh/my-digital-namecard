@@ -44,7 +44,7 @@ body {
 
 .mainContent {
     display: block;
-    background: #121B28;
+    background: #e9b78e;
 
     /*background: #FDF5EE;*/
     /*background-color: #1A1B21;*/
@@ -54,7 +54,7 @@ body {
 }
 
 .info--main {
-    background: #121B28;
+    background: #e9b78e;
     border-radius: 10px 10px 0px 0px;
 }
 
@@ -63,7 +63,7 @@ body {
     font-size: 25px;
     text-align: center;
     /*color: #FFFFFF;*/
-    color: #F17F67;
+    color: #c35222;
     margin: 0px;
     padding-top: 21px;
 }
@@ -74,7 +74,7 @@ body {
     font-size: 15px;
     text-align: center;
     /*color: #F3BF99;*/
-    color: #DCDCDC;
+    color: #454043;
 }
 
 .website {
@@ -83,7 +83,6 @@ body {
     font-size: 10.24px;
     text-align: center;
     /*color: #F5F5F5;*/
-    color: #F17F67;
 }
 
 .email {
@@ -93,7 +92,7 @@ body {
     font-size: 14px;
     text-align: center;
     /*color: #F5F5F5;*/
-    color: #F17F67;
+    color: #c35222;
 }
 
 /*
@@ -130,13 +129,14 @@ body {
     width: auto;
     margin-top: 0px;
     background: #FDF5EE;
-    border-radius: 10px 10px 0px 0px;
+    border-radius: 10px 10px 10px 10px;
 }
 
 .info--extra h3 {
     /*color: #F5F5F5;*/
     color: #F17F67;
-    margin: 20px;
+    padding-top: 10px;
+    margin: 0px 20px;
     font-size: 20px;
     line-height: 150%;
 }
@@ -145,8 +145,8 @@ body {
     font-size: 14px;
     /*color: #DCDCDC;*/
     color: #E4A186;
-    margin: 20px;
-    padding-top: 5px;
+    margin: 0px 20px;
+    padding-top: 0px;
 }
 
 .about > p {
