@@ -10,17 +10,19 @@ export default function Information() {
             </div>
             <div className="info--extra">
                 <div className="about">
+                    {/*
+                    <p className="about--thoughts">
+                        Coding is art.{"\n"}
+                        Art on canvas, a painter's touch.{"\n"}
+                        Touch of perfection, lines apart.{"\n"}
+                        Apart from details, lines in part.{"\n"}
+                        Part of coding, coding of art.{"\n"}
+                    </p>
+                    */}
                     <h3>About:</h3>
                     <p>
-                        Hi! 
-                        I am a second year (penultimate) computer science student from NUS.
-                        The skills I currently have are listed below!
-
-                        {/*
-                        Hi! 
-                        I am a second year computer science student from NUS.
-                        The skills I currently have are listed below!
-                        */}
+                        Hi there!{"\n"}
+                        I'm probably coding right now to expand the list below ;){"\n"}
                     </p>
                 </div>
                 <div className="skills-container">
