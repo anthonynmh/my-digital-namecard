@@ -11,22 +11,12 @@ body {
 
 .app {
     max-width: 317px;
+    /*max-width: 340px;*/
     /*background: #1A1B21;*/
     background-color: #E5D3C4;
     margin: 44px auto 0px auto;
     border-radius: 20px 20px 20px 20px;
 }
-
-/*
-.profile--container {
-    background-color:#23252C;
-    background-color: #DFD3C3;
-    padding: 10px;
-    outline: 10px solid #1A1B21;
-    margin: 10px;
-    border-radius: 20px 20px 10px 10px;
-}
-*/
 
 .profile--container {
     padding: 11px;
@@ -44,17 +34,16 @@ body {
 
 .mainContent {
     display: block;
-    background: #e9b78e;
-
-    /*background: #FDF5EE;*/
-    /*background-color: #1A1B21;*/
+    /*background: #e9b78e;*/
+    background: #FDF5EE;
 
     margin: 0px 10px;
     border-radius: 10px;
 }
 
 .info--main {
-    background: #e9b78e;
+    /*background: #e9b78e;*/
+    background: #FDF5EE;
     border-radius: 10px 10px 0px 0px;
 }
 
@@ -73,6 +62,7 @@ body {
     padding-top: 6px;
     font-size: 15px;
     text-align: center;
+    text-decoration: underline;
     /*color: #F3BF99;*/
     color: #454043;
 }
@@ -118,8 +108,9 @@ body {
 }
 
 .email > p {
-    display: inline-flex;
-    position: absolute;
+    /*display: inline-flex;*/
+    /*position: absolute;*/
+    
     margin: 0;
     margin-top: 8px;
     margin-left: 117px;
@@ -128,23 +119,25 @@ body {
 .info--extra {
     width: auto;
     margin-top: 0px;
-    background: #FDF5EE;
+    /*background: #FDF5EE;*/
+    background: #e9b78e;
+
     border-radius: 10px 10px 10px 10px;
 }
 
 .info--extra h3 {
     /*color: #F5F5F5;*/
-    color: #F17F67;
+    color: #6b6563;
     padding-top: 10px;
     margin: 0px 20px;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 150%;
 }
 
 .info--extra p {
     font-size: 14px;
     /*color: #DCDCDC;*/
-    color: #E4A186;
+    color: #944523;
     margin: 0px 20px;
     padding-top: 0px;
 }
@@ -152,16 +145,20 @@ body {
 .about > p {
     margin: 20px;
     /*margin-bottom: 27px;*/
-    text-align: justify;
     line-height: normal;
+    white-space: pre-wrap;
+}
+
+.about--thoughts {
+    text-align: center;
 }
 
 .skills-container > ul {
     margin-bottom: 12px;
     font-size: 14px;
     line-height: 140%;
-    /*color: #DCDCDC;*/
-    color: #E4A186;
+    
+    color: #944523;
     padding-bottom: 12px;
 }
 
@@ -192,8 +189,8 @@ body {
 }
 
 .credit {
-    color: #DCDCDC;
-    font-size: 12px;
+    color: black;
+    font-size: 13px;
     text-align: right;
     margin: 0px;
     border-radius: 0px 0px 5px 5px;
