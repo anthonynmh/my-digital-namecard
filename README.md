@@ -1,7 +1,4 @@
 # My Digital Namecard
-Making a digital namecard with React.js. <br />
-Figma reference from Scrimba. <br />
-Done in React. <br />
+Making a digital namecard with React.js.  
 
-Website: <br />
-https://anthonynmh.netlify.app/
+Deployed on: https://anthonynmh.netlify.app/
